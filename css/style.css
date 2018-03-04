@@ -1,0 +1,102 @@
+body{background-color: #666;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#jumbo{background-color: #666;}
+
+
+#calculator{
+    box-shadow: inset -2px -2px 20px 1px #333;  
+    border-radius: 35px ;
+    background-color: #dfd8d0;
+    width: 380px;
+    height:510px;
+}
+
+#calculator-bottom{
+  box-shadow: 2px 2px 35px 10px #333; 
+    border-radius: 40px ;
+    background-color: #dfd8d0;
+    width: 380px;
+    height:510px;
+    padding: 0px;
+}
+
+#logo{
+    font-size: 18px;
+    border-radius: 10px ;
+    background-color: #dfd8d0;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    width: 350px;
+    height:50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#screen{
+    border-radius: 10px ;
+    border: 2px solid #b4b39d;
+    background-color: #c3c3ab;
+    width: 320px;
+}
+
+.row{
+  margin-bottom:15px;
+}
+
+#button-equal{
+  height:112px;
+}
+
+#button-AC{
+  background-color: #a72d45;
+  box-shadow: 0 4px #671c2a;  
+}
+
+#button-AC:active{
+  box-shadow: 0 4px #a72d45;
+}
+
+#button-CE{
+  background-color: #a72d45;
+  box-shadow: 0 4px #671c2a;    
+}
+
+#button-CE:active{
+  box-shadow: 0 4px #a72d45;
+}
+
+.btn, .btn:focus {
+  font-size: 15px;
+  font-weight: bold;
+  height: 48px;
+  background-color: #3a3a3a;
+  text-align: center;
+  cursor: pointer;
+
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  
+  box-shadow: 0 4px #212121;
+}
+
+.btn:active {
+  font-size: 15px;
+  font-weight: bold;
+  height: 48px;
+  background-color: #3a3a3a;
+  text-align: center;
+  cursor: pointer;
+
+  color: #fff;
+  border: none;
+  border-radius: 10px; 
+  
+  transform:  translateY(4px);
+  box-shadow: 0 4px #3a3a3a;  
+}
+
+h6{color: #888; font-size: 13px}
+h1{font-size: 37px;}
